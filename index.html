@@ -38,20 +38,19 @@
 </header>
 
     <main>
-        <h2>Про нас</h2>
+        <h2 id="about">Про нас</h2>
         <img src="img/about_us.jpg" alt="Про нас">
         
-       <p>Карате - це класичне японське бойове мистецтво, яке поєднує в собі кілька рівноцінних складових:
+       <div height="10px"><p>Карате - це класичне японське бойове мистецтво, яке поєднує в собі кілька рівноцінних складових:
         ката - технічні комплекси, що включають весь арсенал ударів, стійок, пересувань і 
         елементи дихальної гімнастики. А також куміте - прикладний розділ.
         На сьогоднішній день карате є одним з найпопулярніших видів бойових єдиноборств в Україні.
         І це не дивно, адже з 2016 року карате отримало Олімпійський статус.
         Рекомендовано для будь-якого рівня підготовленості та вікових категорій.</p>
         <p>Якщо ви бажаєте мати гарну фізичну форму, хороший настрій, віднайти 
-        нових друзів - тоді вам до нас! </p>
+        нових друзів - тоді вам до нас! </p></div>
         
-        <h2>Наші тренери</h2>
-        
+        <h2 id="trainers">Наші тренери</h2>
         <div>
             <img src="img/anatoliy_trainer.PNG" alt="сенсей Анатолій">
             <br>
@@ -76,25 +75,63 @@
         </div>
         
         <div>
-            <h2>Розклад занять</h2>
+            <h2 id="schedule">Розклад занять</h2>
             <TABLE BORDER="1" WIDTH=100% BGCOLOR="#99CCCC">
     <TR BGCOLOR="#CCCCFF" ALIGN="CENTER">
-    <TD>Урок</TD> <TD>5 "А"</TD> <TD>5 "Б"</TD> <TD>5 "В"</TD>
+    <TD>---</TD> <TD>Пн</TD> <TD>Вт</TD> <TD>Ср</TD> 
+    <td>Чт</td><td>Пт</td><td>Сб</td><td>Нд</td>
     </TR>
-    <TD>1</TD> <TD>Українська мова</TD>
-    <TD>Українська література</TD> <TD>Історія України</TD>
-    </TR>
-    <TR>
-    <TD>2</TD> <TD>Математика</TD>
-    <TD>Інформатика</TD> <TD>Англійська мова</TD>
+    <TD>Молодша група(6-11р)</TD> <TD>15:00-17:00</TD>
+    <TD></TD> <TD>15:00-17:00</TD>
+    <td></td><td>15:00-17:00</td><td></td><td rowspan="4"><b>Вихідний</b></td>
     </TR>
     <TR>
-    <TD>3</TD> <TD>Історія України</TD>
-    <TD>Математика</TD> <TD>Інформатика</TD>
+    <TD>Середня група(12-15)</TD> <TD></TD>
+    <TD>17:00-19:00</TD> <TD></TD>
+    <td>17:00-19:00</td><td></td><td>12:00-13:30</td>
     </TR>
+    <TR>
+    <TD>Професійна група</TD> <TD>16:00-18:00</TD>
+    <TD></TD> <TD>16:00-18:00</TD>
+    <td></td><td>16:00-18:00</td><td>09:00-11:30</td>
+    </TR>
+    <tr>
+        <td>Доросла група</td>
+        <td></td><td>19:00-21:00</td><td></td><td>19:00-21:00</td><td></td><td>08:30-10:30</td>
+    </tr>
    </TABLE>
         </div>
     </main>
     
+     <h2 id="contacts">Контакти</h2>
+        <div>
+        <img src="img/phone.PNG" alt="телефон">
+        <a href="tel:+380961712503">+380961712503</a>
+    </div>
+    <div>
+        <img src="img/message.PNG" alt="електронна пошта">
+        <span>ronin_karate@ukr.net</span>
+    </div>
+        
+    <figure>
+        <img src="img/map.PNG" alt="карта">
+    </figure>
+    
+        <h2 id="communication">Зворотній зв'язок</h2>
+            <fieldset>
+            <form method="POST" action="https://formspree.io/yuliyatimosh96@ukr.net">
+            <label for="yourname">Ваше ім'я</label>
+            <input type="text" name="name" id="yourname" placeholder="Ім'я" required>
+            <br>
+            <label for="youremail">Ваш емейл</label>
+            <input type="email" name="email" id="youremail" placeholder="Емейл" required>
+            <br>
+            <label for="yourtext">Повідомлення
+                <textarea cols="30" rows="5" name="text" id="yourtext">
+            </textarea>
+            </label>
+            <br>
+                <input type="submit" value="Відправити">
+            </fieldset>
 </body>
 </html>
