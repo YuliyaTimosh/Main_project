@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+header .logo {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3rem;
+    text-align: center;
+    margin: 24px auto;
+    font-weight: bold;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;
+
+}
+
+header .search,
+header .contacts {
+    margin-top: 2em;
+
+}
