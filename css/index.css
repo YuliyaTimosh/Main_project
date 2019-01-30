@@ -39,3 +39,28 @@ header .contacts {
     margin-top: 2em;
 
 }
+
+footer {
+    padding: 1em;
+    background: #191717;
+    color: #e2d7d7;
+}
+
+footer .copyright {
+    padding: 1em 1em;
+    padding-bottom: 0;
+    color: darkcyan;
+    text-align: center;
+    margin-top: 1em;
+}
+
+footer .socials {
+    display: flex;
+    align-items: center;
+
+}
+
+footer .socials a {
+    margin-left: 1em;
+
+}
