@@ -40,6 +40,23 @@ header .contacts {
 
 }
 
+form>div {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+label {
+    width: 150px;
+
+}
+
+form input[type=submit] {
+    margin-left: 150px;
+    margin-bottom: 8px;
+
+}
+
+
 footer {
     padding: 1em;
     background: #191717;
