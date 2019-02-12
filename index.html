@@ -12,8 +12,8 @@
 
 <body>
     <header>
-        <div class="wrapper">
-            <div class="contacts">
+        <div class="d-flex wrapper">
+            <div class="order-2 order-lg-1 col-9 col-sm-6 col-md-5 col-lg-4 contacts">
                 <div>
                     <img src="img/location.png" alt="адреса">
                     <span>м. Житомир вул. Перемоги 79</span>
@@ -27,28 +27,61 @@
                     <span>ronin_karate@ukr.net</span>
                 </div>
             </div>
+            <div class="order-1 order-lg-2 col-3 col-xs-12 col-sm-6 col-md-3 col-lg-4 align-content-start align-content-lg-center">
+                <img class="logo" src="img/ronin_label.jpg " alt="логотип клубу Ронін ">
+            </div>
 
-            <img class="logo" src="img/ronin_label.jpg" alt="логотип клубу Ронін">
 
-            <form class="search" method="POST" action="#search">
-                <input type="search" name="q" placeholder="Знайти">
-            </form>
         </div>
 
-        <nav>
-            <a href="#about">Про нас</a>
-            <a href="#trainers">Наші тренери</a>
-            <a href="#schedule">Розклад занять</a>
-            <a href="#contacts">Контакти</a>
-            <a href="#communication">Зворотній зв'язок</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <a class="navbar-brand " href="# ">Меню</a>
+            <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                <ul class="navbar-nav mr-auto ">
+                    <li class="nav-item active ">
+                        <a class="nav-link " href="#about ">Про нас<span class="sr-only ">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#trainers ">Наші тренери</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#schedule ">Розклад занять </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#contacts ">Контакти</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#communication ">Зворотній зв'язок</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ">
+                    <input class="form-control mr-sm-2 " type="search " placeholder="Search " aria-label="Search ">
+                    <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">Знайти</button>
+                </form>
+            </div>
         </nav>
 
     </header>
 
     <main>
-        <h2 id="about">Про нас</h2>
-        <div class="banner">
-            <img src="img/about_us.jpg" alt="Про нас">
+        <h2 id="about ">Про нас</h2>
+
+        <div id="carouselExampleSlidesOnly " class="carousel slide " data-ride="carousel ">
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img src="img/about_us.jpg " class="d-block w-100 " alt="Про нас ">
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/carouselsecond.jpg " class="d-block w-100 " alt="Про нас ">
+                </div>
+                <div class="carousel-item ">
+                    <img src="img/carouselthird.jpg " class="d-block w-100 " alt="Про нас ">
+                </div>
+            </div>
         </div>
 
 
@@ -58,24 +91,24 @@
             <p>Якщо ви бажаєте мати гарну фізичну форму, хороший настрій, нових друзів - тоді вам до нас! </p>
         </div>
 
-        <h2 id="trainers">Наші тренери</h2>
+        <h2 id="trainers ">Наші тренери</h2>
 
         <figure>
-            <img src="img/anatoliy_trainer.png" alt="сенсей Анатолій">
+            <img src="img/anatoliy_trainer.png " alt="сенсей Анатолій ">
 
             <figcaption><b>Кузьменко Анатолій Вікторович</b> - член національної збірної, багаторазовий чемпіон України, Європи,переможець та призер чемпіонатів та кубків Світу; майстер спорту України,І І дан карате
             </figcaption>
         </figure>
 
         <figure>
-            <img src="img/nikolai_trainer.png" alt="сенсей Микола">
+            <img src="img/nikolai_trainer.png " alt="сенсей Микола ">
 
             <figcaption><b>Білоскурський Микола Романович</b> - майстер спорту міжнародног,о классу, багаторазовий чемпіон України, призер чемпіонатів Європи та Світу, нині являється найкращим тренером в Україні, III дан карате
             </figcaption>
         </figure>
 
         <figure>
-            <img src="img/roman_trainer.png" alt="семпай Роман">
+            <img src="img/roman_trainer.png " alt="семпай Роман ">
 
             <figcaption><b>Ністор Роман Сергійович</b> - кандидат в майстри спорту України, переможець та призер чемпіонатів України, та міжнародних турнірів
             </figcaption>
@@ -83,9 +116,9 @@
 
 
         <div>
-            <h2 id="schedule">Розклад занять</h2>
+            <h2 id="schedule ">Розклад занять</h2>
 
-            <table border="1">
+            <table border="1 ">
                 <tr>
                     <td>---</td>
                     <td>Пн</td>
@@ -104,7 +137,7 @@
                     <td></td>
                     <td>15:00-17:00</td>
                     <td></td>
-                    <td rowspan="4"><b>Вихідний</b></td>
+                    <td rowspan="4 "><b>Вихідний</b></td>
                 </tr>
                 <tr>
                     <td>Середня група(12-15)</td>
@@ -137,25 +170,25 @@
         </div>
 
 
-        <h2 id="contacts">Контакти</h2>
+        <h2 id="contacts ">Контакти</h2>
         <div>
-            <img src="img/phone.png" alt="телефон">
-            <a href="tel:+380961712503">+380961712503</a>
+            <img src="img/phone.png " alt="телефон ">
+            <a href="tel:+380961712503 ">+380961712503</a>
         </div>
         <div>
-            <img src="img/message.png" alt="електронна пошта">
+            <img src="img/message.png " alt="електронна пошта ">
             <span>ronin_karate@ukr.net</span>
         </div>
 
-        <figure>
-            <img src="img/map.png" alt="карта">
+        <figure class="map">
+            <img src="img/map.png " alt="карта ">
         </figure>
 
-        <h2 id="communication">Зворотній зв'язок</h2>
-        <form method="POST" action="https://formspree.io/yuliyatimosh96@ukr.net">
+        <h2 id="communication ">Зворотній зв'язок</h2>
+        <form method="POST " action="https://formspree.io/yuliyatimosh96@ukr.net ">
             <div>
-                <label for="yourname">Ваше ім'я</label>
-                <input type="text" name="name" id="yourname" placeholder="Ім'я" required>
+                <label for="yourname ">Ваше ім'я</label>
+                <input type="text " name="name " id="yourname " placeholder="Ім 'я" required>
             </div>
             <div>
                 <label for="youremail">Ваш емейл</label>
@@ -183,7 +216,8 @@
         <div class="copyright">Copyright - Yuliia Timoshenko</div>
 
     </footer>
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
 </body>

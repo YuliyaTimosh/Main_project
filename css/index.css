@@ -7,6 +7,7 @@
 
 body {
     max-width: 980px;
+    min-width: 640px;
     margin: auto;
 }
 
@@ -17,8 +18,8 @@ header {
 header .logo {
     font-family: 'Major Mono Display', monospace;
     font-size: 3rem;
-    text-align: center;
-    margin: 24px auto;
+    /*text-align: center;*/
+    /*margin: 24px auto;*/
     font-weight: bold;
 }
 
@@ -27,7 +28,7 @@ header .wrapper {
     justify-content: space-between;
 }
 
-header nav {
+.navbar {
     display: flex;
     padding: 1em;
     justify-content: space-around;
@@ -85,8 +86,13 @@ footer .socials a {
 /*mobile version*/
 
 @media (max-width: 990px) {
-
     .logo {
-        margin: 24px 10px;
+        height: 150px
     }
+
+}
+
+
+.map img {
+    width: 100%;
 }
