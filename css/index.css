@@ -81,3 +81,12 @@ footer .socials a {
     margin-left: 1em;
 
 }
+
+/*mobile version*/
+
+@media (max-width: 990px) {
+
+    .logo {
+        margin: 24px 10px;
+    }
+}
