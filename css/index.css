@@ -60,7 +60,6 @@ form input[type=submit] {
 
 footer {
     padding: 1em;
-    background: #191717;
     color: #e2d7d7;
 }
 
@@ -83,6 +82,15 @@ footer .socials a {
 
 }
 
+
+
+.carousel.slide {
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+
 /*mobile version*/
 
 @media (max-width: 990px) {
@@ -90,9 +98,4 @@ footer .socials a {
         height: 150px
     }
 
-}
-
-
-.map img {
-    width: 100%;
 }
