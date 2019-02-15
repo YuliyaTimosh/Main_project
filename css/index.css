@@ -7,7 +7,7 @@
 
 body {
     max-width: 980px;
-    min-width: 640px;
+    min-width: 577px;
     margin: auto;
 }
 
@@ -108,6 +108,11 @@ h2 {
     margin: 24px 0 18px;
 }
 
+h3 {
+    margin: 16px 0 16px;
+    font-size: 18px;
+}
+
 /*mobile version*/
 
 @media (max-width: 990px) {
@@ -115,4 +120,25 @@ h2 {
         height: 150px
     }
 
+    .table {
+        display: none;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .alternative {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 577px) {
+    .d-flex wrapper {
+        display: none;
+    }
+    .logo {
+        align-items: center;
+    }
 }
