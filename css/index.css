@@ -90,6 +90,23 @@ footer .socials a {
     margin-bottom: 16px;
 }
 
+.trainers figure {
+    display: flex;
+}
+
+.trainers img {
+    width: 157px;
+    height: 155px;
+    flex-shrink: 0;
+}
+
+.trainers figure figcaption {
+    margin-left: 16px;
+}
+
+h2 {
+    margin: 24px 0 18px;
+}
 
 /*mobile version*/
 
